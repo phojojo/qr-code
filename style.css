@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center; /* centers font and qr code*/
+    font-size: 15px;
+}
+
+.container{
+    max-width: 360px;
+    margin: 0 auto;
+
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    padding: 18px; /* reduces size of qr code and font without shrinking BG*/
+    border-radius: 18px; /*rounds the corners of the background */
+    text-align: center; /* centers text */
+    margin: 0 1rem; /* narrows the overall card*/
+}
+.card img{
+    width: 100%; /* adjusts qr code width*/
+}
+
+.text{
+    padding: 22px; /* used to creatre space around an elements contents*/
+}
+
+.text h2{ /* changes color and spacing within <h2>*/ 
+    color: hsl(218, 44%, 22%);
+    padding-bottom: 15px;
+}
+
+.text p{ /* changes color in the <p>*/
+    color: hsl(220, 15%, 55%)
+}
